@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com"/></td>
-        <td><a href="01_java/01.md">Java - Básico e POO</a></td>
+        <td><a href="01_java/README.md">Java - Básico e POO</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/cDPH4tl.png" title="source: imgur.com"/></td>
