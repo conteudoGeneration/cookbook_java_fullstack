@@ -46,8 +46,8 @@
 4. <a href="b04.md">Classes NumberFormat e DecimalFormat</a>
 5. <a href="b05.md">Debug</a>
 
-<!-- <br /><br />
+<br /><br />
 	
+
 <div align="center"><a href="../README.md"><img src="https://i.imgur.com/kfHCxif.png" title="source: imgur.com" width="5%"/></a></div>
 <div align="center">Home</div>
--->
