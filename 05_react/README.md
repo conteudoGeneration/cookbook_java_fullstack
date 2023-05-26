@@ -30,7 +30,7 @@
 20. <a href="20.md" >Projeto Blog Pessoal: Construindo o template do Componente Formulário Tema</a>
 21. <a href="21.md">Projeto Blog Pessoal: Construindo a lógica do Componente Formulário Tema</a>
 22. <a href="22.md" >Projeto Blog Pessoal: Construindo a template do Componente Deletar Tema</a>
-23. <a href="23.md" >Projeto Blog Pessoal: Construindo a lógica do Componente Deletar Tema</a>
+23. <a href="23.md" >Projeto Blog Pesssoal: Construindo a lógica do Componente Deletar Tema</a>
 24. <a href="24.md" >Projeto Blog Pessoal: Construindo a template do Componente Lista Postagem</a>
 25. <a href="25.md" >Projeto Blog Pessoal: Construindo a lógica do Componente Lista Postagens</a>
 26. <a href="26.md" >Projeto Blog Pessoal: Construindo a template do Componente Formulário Postagem</a>
