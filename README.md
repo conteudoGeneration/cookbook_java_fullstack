@@ -12,7 +12,7 @@
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com"/></td>
-        <td><a href="01_java/README.md">Java - Básico e POO</a></td>
+        <td><a href="01_java/README.md">Programação de Computadores com Java</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/cDPH4tl.png" title="source: imgur.com"/></td>
@@ -24,14 +24,11 @@
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/XFnTrpX.png" title="source: imgur.com"/></td>
-        <td><a href="04_spring/README.md">Spring</a></td>
+        <td><a href="04_spring/README.md">Backend com Spring</a></td>
     </tr>
     <tr>
-        <td><img src="https://i.imgur.com/fu9QxlT.png" title="source: imgur.com"/></td>
-        <td><a href="05_fluxo_git/README.md">Fluxo de trabalho Git</a></td>
-    </tr>
-    <tr>
-        <td><img src="https://i.imgur.com/KOZy0uM.png" title="source: imgur.com"/></td>
-        <td><a href="06_devops/README.md">DEVOPS</a></td>
+        <td><img src="https://i.imgur.com/H9wEgsJ.png" title="source: imgur.com"/></td>
+        <td><a href="05_react/README.md">Frontend com React</a></td>
     </tr>
 </table>
+

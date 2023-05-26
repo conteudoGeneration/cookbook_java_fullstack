@@ -24,7 +24,7 @@ O Spring Tool Suite (STS) é uma IDE baseada no Eclipse, que facilita o uso de S
 
 4. Abra o arquivo: **spring-tool-suite-4-4.14.1.RELEASE-e4.23.0-win32.win32.x86_64.self-extracting.jar** 
 
-| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="120px"/> | <p align="justify"> **ATENÇÃO:** No momento em que este guia foi escrito, a versão mais atual do STS era a versão 4.14.1. Ao utilizar este guia no futuro, pode ser que a versão mais atual seja outra* </p> |
+| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="120px"/> | <p align="justify"> **ATENÇÃO:** No momento em que este guia foi escrito, a versão mais atual do STS era a versão 4.14.1. Ao utilizar este guia no futuro, pode ser que a versão mais atual seja outra.</p> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 5. Será perguntado com qual programa você deseja abrir o arquivo do tipo Jar. Selecione o **Java Platform(TM) SE Binary**, marque a opção **Sempre usar este aplicativo para abrir arquivos Jar** e clique em **OK** para continuar.
@@ -41,9 +41,16 @@ O Spring Tool Suite (STS) é uma IDE baseada no Eclipse, que facilita o uso de S
 
 8. Observe que na pasta onde você salvou o instalador do STS, será criada uma pasta com o nome: **sts-4.14.1.RELEASE** (a versão pode ser diferente)
 
-9. Mova esta pasta para dentro de C:\Program Files\ ou C:\Arquivos de Programas\
+9. Mova esta pasta para dentro de **C:\Program Files\** ou **C:\Arquivos de Programas\**
 
 10. Abra a pasta e execute o arquivo: **SpringToolSuite4.exe**
+
+<br />
+
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="100px"/> | <div align="left">**DICA:** Para simplificar o seu acesso ao STS, crie um atalho para o arquivo **SpringToolSuite4.exe** na Área de Trabalho do seu Windows. </div> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+<br />
 
 11. Na próxima janela, informe a pasta onde o STS irá criar a **Workspace** (Pasta onde serão salvos os projetos Spring).
 
