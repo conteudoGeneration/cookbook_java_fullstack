@@ -12,7 +12,7 @@
 2. <a href="02.md" >Preparando o ambiente para trabalhar com o React</a>
 3. <a href="03.md">Criando um projeto React pelo Vite</a>
 4. <a href="04.md">Estilizando componentes React com CSS</a>
-5. <a href="05.md">React - Props</a>
+5. <a href="05.md">React - Props e Hooks</a>
 6. <a href="06.md">React: Bibliotecas de estilização</a>
 7. <a href="07.md">React: Estilização com Flexbox, Grid e Tailwind</a>
 8. <a href="08.md">Criando Rotas com o React Router Dom</a>
