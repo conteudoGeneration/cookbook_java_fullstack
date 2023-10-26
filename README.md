@@ -30,5 +30,8 @@
         <td><img src="https://i.imgur.com/H9wEgsJ.png" title="source: imgur.com"/></td>
         <td><a href="05_react/README.md">Frontend com React</a></td>
     </tr>
+     <tr>
+        <td><img src="https://i.imgur.com/KOZy0uM.png" title="source: imgur.com"/></td>
+        <td><a href="06_devops/README.md">DEVOPS</a></td>
+    </tr>
 </table>
-
