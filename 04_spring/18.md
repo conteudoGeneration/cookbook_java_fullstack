@@ -1,5 +1,7 @@
 <h1>Projeto 02 - Blog Pessoal - Spring Security - Ecossistema da Segurança - Parte 02</h1>
 
+
+
 O que veremos por aqui:
 
 1. A Classe JwtService
@@ -50,11 +52,11 @@ O valor atribuído ao atributo **SECRET** é uma chave encriptada aleatória, ge
 
 > O **Advanced Encryption Standard (AES)** é uma especificação para a criptografia de dados eletrônicos estabelecida pelo Instituto Nacional de Padrões e Tecnologia (NIST) dos EUA em 2001. AES é amplamente utilizado hoje em dia, pois é um algoritmo que geram chaves muito fortes, difíceis de serem quebradas.
 
-Para gerar esta chave, utilizamos o site All Keys Generator (**https://www.allkeysgenerator.com/**), que permite gerar chaves encriptadas aleatórias de diversos formatos e tamanhos:
+Para gerar esta chave, utilizamos o site All Keys Generator (<a href="https://www.keygen.io/" target="_blank"><b>https://www.keygen.io/</b></a>), na opção **SHA 256-bit Key**, que permite gerar chaves encriptadas aleatórias no formato **SHA 256**, como mostra a imagem abaixo:
 
-<div align="center"><img src="https://i.imgur.com/3ugs6EB.png" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/AfTCWuK.png" title="source: imgur.com" /></div>
 
-Para gerar a nossa Chave de 256 bits, selecionamos a aba **256-bit** e marcamos a opção **Hex**, para converter a String gerada para o formato **Hexadecimal**. Na sequência, copiamos a Chave e inserimos o valor no atributo **SECRET**.
+Copie a Chave hexadecimal gerada pelo site clicando no botão **COPY** e insira o valor copiado no atributo **SECRET**.
 
 > **Hexadecimal é o sistema numérico de base 16, que utiliza os símbolos 0–9 e A–F para representar os seus elementos**.
 >
