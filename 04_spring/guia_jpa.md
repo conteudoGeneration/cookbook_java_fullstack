@@ -1,6 +1,6 @@
 ﻿<h1>Spring Data JPA - Guia de referência rápida</h1>
 <h2>1. Validation</h2>
-<h3>1.1 Annotations - javax.validation</h3>
+<h3>1.1 Annotations - jakarta.validation</h3>
 
 <table>
 	<tr>
@@ -8,55 +8,55 @@
 		<td><b>Descrição
 	</tr>
 	<tr>
-		<td><code>@NotNull
+		<td><code>@NotNull</code>
 		<td>Valida se o valor do Atributo não é nulo.
 	</tr>
 	<tr>
-		<td><code>@AssertTrue
+		<td><code>@AssertTrue</code>
 		<td>Valida se o valor do Atributo é verdadeiro.
 	</tr>
 	<tr>
-		<td><code>@Size
+		<td><code>@Size</code>
 		<td>Valida se o valor do Atributo possui um tamanho entre os parâmetros min e max. utilize com Strings e  Collections.
 	</tr>
 	<tr>
-		<td><code>@Min
+		<td><code>@Min</code>
 		<td>Valida se o valor do Atributo tem um valor maior ou igual ao valor mínimo atribuído ao Atributo.
 	</tr>
 	<tr>
-		<td><code>@Max 
+		<td><code>@Max </code>
 		<td>Valida se o valor do Atributo tem um valor menor ou igual ao valor máximo atribuído ao Atributo.
 	</tr>
 	<tr>
-		<td><code>@Email
+		<td><code>@Email</code>
 		<td> Valida se o valor do Atributo é um email.
 	</tr>
 	<tr>
-		<td><code>@NotEmpty 
+		<td><code>@NotEmpty</code>
 		<td>Valida se o valor do Atributo não é nulo ou vazio; pode ser aplicado a valores de String e  Collections.
 	</tr>
 	<tr>
-		<td><code>@NotBlank
+		<td><code>@NotBlank</code>
 		<td>Pode ser aplicado apenas a valores de texto e valida se o valor do Atributo não é nulo ou possui espaços em branco.
 	</tr>
 	<tr>
-		<td><code>@Positive <br /> @PositiveOrZero
+		<td><code>@Positive <br /> @PositiveOrZero</code>
 		<td>Aplique a valores numéricos e valide se eles são estritamente positivos ou positivos incluindo o Zero.
 	</tr>
 	<tr>
-		<td><code>@Negative <br /> @NegativeOrZero
+		<td><code>@Negative <br /> @NegativeOrZero</code>
 		<td>Aplique a valores numéricos e valide se eles são estritamente negativos ou negativos incluindo o Zero.
 	</tr>
 	<tr>
-		<td><code>@Past <br /> @PastOrPresent
+		<td><code>@Past <br /> @PastOrPresent</code>
 		<td>Valida se um valor de data está no passado ou no passado, incluindo o presente.
 	</tr>
 	<tr>
-		<td><code>@Future <br /> @FutureOrPresent
+		<td><code>@Future <br /> @FutureOrPresent</code>
 		<td>Valida se um valor de data está no futuro ou no futuro, incluindo o presente.
 	</tr>
 	<tr>
-		<td><code>@Digits
+		<td><code>@Digits</code>
 		<td>Valida a parte inteira e decimal de um numero. Esta anotação geralmente é utilizada com numeros no formato BigDecimal. Esta anotação possui 2 parâmetros: <b>integer</b> (Numero de digitos da parte inteira) e <b>fraction</b> (Numero de digitos da parte decimal).
 	</tr>
 </table>
@@ -65,11 +65,11 @@
 
 | Anotação                                            | Descrição                            |
 | --------------------------------------------------- | ------------------------------------ |
-| @CPF                                                | Valida CPF                           |
-| @CNPJ                                               | Valida CNPJ                          |
-| @ISBN                                               | Valida o ISBN de um Livro            |
-| @TituloEleitoral                                    | Valida o Título de Eleitor           |
-| @CreditCardNumber(ignoreNonDigitCharacters = false) | Valida o numero do Cartão de Crédito |
+| <code>@CPF</code>                                                | Valida CPF                           |
+| <code>@CNPJ</code>                                               | Valida CNPJ                          |
+| <code>@ISBN</code>                                               | Valida o ISBN de um Livro            |
+| <code>@TituloEleitoral</code>                                    | Valida o Título de Eleitor           |
+| <code>@CreditCardNumber(ignoreNonDigitCharacters = false)</code> | Valida o numero do Cartão de Crédito |
 
 <h2>2. Spring Data JPA</h2>
 <h3>2.1 Principais Métodos</h3>
@@ -238,8 +238,6 @@ Ao implementar os Métodos de Consulta por Data na Classe Controladora, será ne
 | ------------- | ------------------------------------------- | -------------------------- |
 | **True**      | Verifica se um Atributo Boolean é verdadeiro. | **findByDisponivelTrue()**<br />*SELECT * FROM tb_produtos WHERE disponivel = true;*  |
 | **False**     | Verifica se um Atributo Boolean é falso.      | **findByDisponivelFalse()**<br />*SELECT * FROM tb_produtos WHERE disponivel = false;* |
-
-<div align="left"><img src="https://i.imgur.com/JACNZiR.png" title="source: imgur.com" width="30px"/> <a href="https://github.com/rafaelq80/jpa_query_methods" target="_blank"><b>Código fonte do projeto exemplo</b></a>
 
 <br /><br />
 	
