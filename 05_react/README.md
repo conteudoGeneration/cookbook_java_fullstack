@@ -39,8 +39,8 @@
 29. <a href="29.md" >Projeto Blog Pessoal: Construindo a lógica do Componente Deletar Postagem</a>
 30. <a href="30.md" >Projeto Blog Pessoal: Construindo o Componente Perfil</a>
 31. <a href="31.md" >Projeto Blog Pessoal: Construindo alerts personalizado com react-toastify </a>
-32. <a href="32.pdf" target="_blank">Projeto Blog Pessoal: Deploy no Vercel</a>
-33. <a href="33.pdf" target="_blank">Projeto Blog Pessoal: Deploy no Netlify</a>
+32. <a href="32.md">Projeto Blog Pessoal: Deploy no Vercel</a>
+33. <a href="33.md">Projeto Integrador - Organização Github: Deploy no Netlify</a>
 
 <br /><br />
 
