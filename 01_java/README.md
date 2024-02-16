@@ -13,17 +13,17 @@
 6. <a href="06.md">Laços Condicionais</a>
 7. <a href="07.md">Laços de Repetição</a>
 8. <a href="08.md">Vetores e Matrizes</a>
-9. <a href="15.md">Collections</a>
-10. <a href="18.md">Estrutura de dados</a>
-11. <a href="09.md">Métodos</a>
-12. <a href="10.md">Introdução a Programação Orientada a Objetos - Parte 01</a>
-13. <a href="11.md">Introdução a Programação Orientada a Objetos - Parte 02</a>
-14. <a href="13.md">Classes Abstratas</a>
-15. <a href="14.md">Interfaces</a>
-16. <a href="12.md">Exceptions</a>
-17. <a href="16.md">Optional</a>
-18. <a href="19.md">Lambda</a>
-19. <a href="17.md">Stream</a>
+9. <a href="09.md">Collections</a>
+10. <a href="10.md">Estrutura de dados</a>
+11. <a href="11.md">Métodos</a>
+12. <a href="12.md">Introdução a Programação Orientada a Objetos - Parte 01</a>
+13. <a href="13.md">Introdução a Programação Orientada a Objetos - Parte 02</a>
+14. <a href="14.md">Classes Abstratas</a>
+15. <a href="15.md">Interfaces</a>
+16. <a href="16.md">Exceptions</a>
+17. <a href="17.md">Optional</a>
+18. <a href="18.md">Lambda</a>
+19. <a href="19.md">Stream</a>
 
 <h2><img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com" width="35px"/>Projeto Conta Bancária</h2>
 
@@ -31,9 +31,9 @@
 2. <a href="pr02.md">Projeto Conta Bancária - Classe Menu - Colorido</a>
 3. <a href="pr03.md">Projeto Conta Bancária - Classe Conta</a>
 4. <a href="pr04.md">Projeto Conta Bancária - Classes ContaCorrente e ContaPoupanca</a>
-5. <a href="pr06.md">Projeto Conta Bancária - Classe Conta - Abstrata</a>
-6. <a href="pr07.md">Projeto Conta Bancária - Interface ContaRepository</a>
-7. <a href="pr05.md">Projeto Conta Bancária - Classe Menu - Exceptions</a>
+5. <a href="pr05.md">Projeto Conta Bancária - Classe Conta - Abstrata</a>
+6. <a href="pr06.md">Projeto Conta Bancária - Interface ContaRepository</a>
+7. <a href="pr07.md">Projeto Conta Bancária - Classe Menu - Exceptions</a>
 8. <a href="pr08.md">Projeto Conta Bancária - Classe ContaController - Métodos do CRUD - Parte I</a>
 9. <a href="pr09.md">Projeto Conta Bancária - Classe ContaController - Métodos do CRUD - Parte II</a>
 10. <a href="pr10.md">Projeto Conta Bancária - Classe ContaController - Métodos Bancários</a>
