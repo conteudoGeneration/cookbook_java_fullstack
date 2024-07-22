@@ -7,17 +7,17 @@
 
 <h2><img src="https://i.imgur.com/r9lrbPG.png" title="source: imgur.com" width="5%"/>Introdução ao JavaScript</h2>
 
-1. <a href="01.md">Introdução ao JavaScript</a>
-2. <a href="02.md">Introdução ao Node JS</a>
-3. <a href="03.md">Visual Studio Code</a>
+1. <a href="javascript 1.md">Introdução ao JavaScript</a>
+2. <a href="javascript 2.md">Entrada saida de dados</a>
+3. <a href="javascript 3.md">variaveis constantes e funções</a>
 
 <br />
 
 <h2><img src="https://i.imgur.com/izFuHID.png" title="source: imgur.com" width="5%"/>Introdução ao TypeScript</h2>
 
-4. <a href="10.md">Introdução ao TypeScript</a>
+4. <a href="typescript 1.md">Introdução ao TypeScript</a>
 
-5. <a href="11.md">Entrada de Dados</a>
+5. <a href="typescript 2.md">Funções, Spreed Operator e Interfaces</a>
 
 
 
