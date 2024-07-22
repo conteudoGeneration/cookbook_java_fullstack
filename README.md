@@ -27,6 +27,10 @@
         <td><a href="04_spring/README.md">Backend com Spring</a></td>
     </tr>
     <tr>
+        <td><img src="https://i.imgur.com/r9lrbPG.png" title="source: imgur.com"/></td>
+        <td><a href="javascript_typescript/README.md"javascript</a></td>
+    </tr>
+    <tr>
         <td><img src="https://i.imgur.com/H9wEgsJ.png" title="source: imgur.com"/></td>
         <td><a href="05_react/README.md">Frontend com React</a></td>
     </tr>
