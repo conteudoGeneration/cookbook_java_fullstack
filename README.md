@@ -28,7 +28,7 @@
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/r9lrbPG.png" title="source: imgur.com"/></td>
-        <td><a href="javascript_typescript/README.md"javascript</a></td>
+        <td><a href="javascript_typescript/README.md">Introdução ao Introdução</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/H9wEgsJ.png" title="source: imgur.com"/></td>
