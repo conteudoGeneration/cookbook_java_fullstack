@@ -184,7 +184,7 @@ A etapa final de um pipeline de CI/CD sólido é a implantação contínua. Ela 
 3. Após passar nos testes, antes de efetuar o deploy, o Lead precisa validar a Release, o chamado aceite, onde pode ser via uma mensagem do Slack, por exemplo. O importante é que este processo de aceite seja tão simples como clicar em um botão ou em um link.
 4. Após o aceite, o deploy é realizado em Produção.
 
-| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="80px"/> | <div align="left"> **ATENÇÃO:** *Este exemplo é um exemplo de um pipeline Básico de CD, ou seja, podem existir outras etapas de acordo com as políticas da empresa.* </div> |
+| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="80px"/> | <div align="left"> **ATENÇÃO:** *Este é um exemplo simples de um pipeline Básico de CD, ou seja, podem existir outras etapas de acordo com as políticas da empresa.* </div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 <br />
