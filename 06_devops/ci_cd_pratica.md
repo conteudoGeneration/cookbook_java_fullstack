@@ -490,7 +490,7 @@ Vamos criar o nosso Workflow dentro do repositório remoto **github_actions**, n
 
 <br />
 
-| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="80px"/> | <div align="left"> **DICA:** *Para explorar o repositório de templates do Github Actions, consulte o link <a href="https://github.com/marketplace?type=actions><b>Github Actions Marketplace</b></a>.* </div> |
+| <img src="https://i.imgur.com/RfjtOFi.png" title="source: imgur.com" width="80px"/> | <div align="left"> **DICA:** *Para explorar o repositório de templates do Github Actions, consulte o link <a href="https://github.com/marketplace?type=actions"><b>Github Actions Marketplace</b></a>.* </div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 <br />
