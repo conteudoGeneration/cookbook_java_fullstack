@@ -9,8 +9,8 @@
 
 
 
-1. <a href="01.md">Introdução ao TypeScript</a>✔
-2. <a href="02.md">TypeScript: O Básico para o Frontend</a>✔
+1. <a href="01.md">Introdução ao TypeScript</a>
+2. <a href="02.md">TypeScript: O Básico para o Frontend</a>
 
 <br /><br />
 

@@ -30,6 +30,5 @@
 
 <br /><br />
 
-<!-- <div align="center"><a href="../README.md"><img src="https://i.imgur.com/kfHCxif.png" title="source: imgur.com" width="5%"/></a></div>-->
-
-<!--<div align="center">Home</div> -->
+<div align="center"><a href="../README.md"><img src="https://i.imgur.com/kfHCxif.png" title="source: imgur.com" width="5%"/></a></div>
+<div align="center">Home</div>

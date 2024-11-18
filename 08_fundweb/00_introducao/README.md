@@ -9,8 +9,8 @@
 
 
 
-1. <a href="01.md">Introdução ao Desenvolvimento WEB - Frontend</a>✔
-2. <a href="02.md">Projeto 01 - Portfólio - Iniciando o Projeto</a>✔
+1. <a href="01.md">Introdução ao Desenvolvimento WEB - Frontend</a>
+2. <a href="02.md">Projeto 01 - Portfólio - Iniciando o Projeto</a>
 
 <br /><br />
 
