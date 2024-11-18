@@ -10,6 +10,10 @@
         <td width="10%"><img src="https://i.imgur.com/PHgmbCh.png" title="source: imgur.com" /></td>
         <td width="90%"><a href="00_ambiente/README.md">Preparação do Ambiente</a></td>
     </tr>
+     <tr>
+        <td><img src="https://i.imgur.com/fu9QxlT.png" title="source: imgur.com"/></td>
+        <td><a href="https://github.com/conteudoGeneration/cookbook_git/blob/main/windows/README.md" target="_blank">Versionamento de código com Git</a></td>
+    </tr>
     <tr>
         <td><img src="https://i.imgur.com/JSfXyzm.png" title="source: imgur.com"/></td>
         <td><a href="01_java/README.md">Programação de Computadores com Java</a></td>
@@ -27,8 +31,8 @@
         <td><a href="04_spring/README.md">Backend com Spring</a></td>
     </tr>
     <tr>
-        <td><img src="https://i.imgur.com/r9lrbPG.png" title="source: imgur.com"/></td>
-        <td><a href="javascript_typescript/README.md">Introdução ao JavaScript</a></td>
+        <td><img src="https://i.imgur.com/ojhc9Jc.png" title="source: imgur.com"/></td>
+        <td><a href="08_fundweb/README.md">Fundamentos WEB</a></td>
     </tr>
     <tr>
         <td><img src="https://i.imgur.com/H9wEgsJ.png" title="source: imgur.com"/></td>
@@ -39,3 +43,4 @@
         <td><a href="06_devops/README.md">DEVOPS</a></td>
     </tr>
 </table>
+
