@@ -17,7 +17,7 @@
 4. <a href="04.md">Projeto Blog Pessoal - Componente Home</a>
 5. <a href="05.md">Introdução a Props, Hooks e Renderização Condicional</a>
 6. <a href="06.md">Introdução ao Tailwind</a>
-7. <a href="07_1.md">Instalação e Configuração do Tailwind</a>
+7. <a href="07.md">Instalação e Configuração do Tailwind</a>
 8. <a href="08.md">Projeto Blog Pessoal - Componentes Navbar e Footer</a>
 9. <a href="09.md">Introdução ao React Router Dom</a>
 10. <a href="10.md">Projeto Blog Pessoal - Rotas com o React Router Dom</a>
