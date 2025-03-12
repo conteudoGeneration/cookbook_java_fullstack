@@ -2,7 +2,7 @@
 
 
 
-1.  Acesse o site do Insomnia: **[https://insomnia.rest/download](https://insomnia.rest/download)** e clique no botão **Download Insomnia for Windows**.
+1.  Acesse o site do Insomnia: **[https://insomnia.rest/download](https://insomnia.rest/download)** e clique no botão **Download Insomnia for Windows ou mac dependendo do sistema operacional que esteja usando**.
 <div align="center"><img src="https://i.imgur.com/OIDW45P.png" title="source: imgur.com" /></div>
 
 2. Após efetuar o download, execute o instalador do Insomnia.
