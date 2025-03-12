@@ -1,6 +1,6 @@
 ﻿<h1>Guia de Instalação do Visual Studio Code - VSCode</h1>
 
-1. Acesse o link: https://code.visualstudio.com/download para efetuar o download do VSCode.
+1. Acesse o link: https://code.visualstudio.com/download para efetuar o download do VSCode para windowns ou mac dependendo do sistema operacional que esteja usando.
 <div align="center"><img src="https://i.imgur.com/wr6dgnD.png" title="source: imgur.com" /></div>
 
 2. Marque a opção **Eu aceito o acordo** e clique no botão **Próximo** para continuar.
