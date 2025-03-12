@@ -143,4 +143,44 @@ O MySQL configura durante a instalação a atualização diária à 0h. Todos os
 
 <br /><br />
 
+# Como instalar o MySQL Server (Community) e MySQL Workbench no macOS
+
+Siga os passos abaixo para instalar o **MySQL Server** e o **MySQL Workbench** no seu macOS.
+
+## 1. Instalar o MySQL Server (Community)
+
+### Passo 1: Baixar o MySQL Server
+
+1. Acesse o site oficial do MySQL para baixar a versão **Community** do MySQL Server:
+   [MySQL Downloads - MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+
+2. Selecione a versão apropriada para macOS e clique em **Download**.
+
+3. Na página de download, clique em **No thanks, just start my download** para baixar o instalador `.dmg`.
+
+### Passo 2: Instalar o MySQL Server
+
+1. Após o download, localize o arquivo `.dmg` na pasta de downloads e clique duas vezes para abrir o instalador.
+
+2. Siga as instruções do instalador para completar a instalação. Isso incluirá:
+   - Aceitar os termos de licença.
+   - Selecionar o local de instalação (normalmente, o padrão está bom).
+   - Configuração de senha para o usuário `root`.
+
+3. Após a instalação, você pode iniciar o MySQL Server.
+
+### Passo 3: Iniciar o MySQL Server
+
+1. Abra o **System Preferences** (Preferências do Sistema) no macOS.
+
+2. Você verá o ícone do MySQL. Clique nele e ative o **MySQL Server** (iniciar o servidor MySQL).
+
+### Passo 4: Verificar a instalação
+
+1. Abra o **Terminal** e digite o seguinte comando para verificar se o MySQL Server foi instalado corretamente:
+
+   ```bash
+   mysql --version
+    ```
+
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
