@@ -68,4 +68,63 @@ npm -v
 
 <br /><br />
 
+# Como instalar o Node.js no macOS
+
+Siga os passos abaixo para instalar o **Node.js** no seu macOS.
+
+## 1. Baixar e instalar o Node.js
+
+### Passo 1: Acesse o site oficial do Node.js
+
+1. Vá até a página de downloads do Node.js:
+   [Node.js Downloads](https://nodejs.org/)
+
+2. Você verá duas versões disponíveis:
+   - **LTS (Long Term Support)**: Versão estável recomendada para a maioria dos usuários.
+   - **Current**: A versão mais recente com as últimas funcionalidades.
+
+   Para a maioria dos usuários, é recomendado baixar a versão **LTS**.
+
+### Passo 2: Baixar o instalador
+
+1. Clique no botão **macOS** para baixar o instalador `.pkg` da versão **LTS** (ou **Current**, se preferir).
+
+### Passo 3: Instalar o Node.js
+
+1. Após o download, localize o arquivo `.pkg` na pasta de downloads e clique duas vezes para abrir o instalador.
+
+2. Siga as instruções do instalador:
+   - Aceite os termos de licença.
+   - Clique em **Continuar** até concluir a instalação.
+
+3. O instalador irá configurar o Node.js e o **npm** (Node Package Manager) automaticamente no seu sistema.
+
+## 2. Verificar a instalação
+
+1. Após a instalação, abra o **Terminal** e verifique se o Node.js foi instalado corretamente.
+
+   - Para verificar a versão do **Node.js**:
+
+     ```bash
+     node -v
+     ```
+
+     Isso deve retornar a versão instalada do Node.js, por exemplo:
+
+     ```
+     v16.14.0
+     ```
+
+   - Para verificar a versão do **npm** (Node Package Manager):
+
+     ```bash
+     npm -v
+     ```
+
+     Isso deve retornar a versão instalada do npm, por exemplo:
+
+     ```
+     8.3.1
+     ```
+
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
