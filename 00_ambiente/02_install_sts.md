@@ -198,4 +198,39 @@ Para corrigir o problema, marque as duas opções de acesso (**Redes Privadas e 
 
 <br /><br />
 
+# Como instalar o Spring Tool Suite (STS) no macOS
+
+Siga os passos abaixo para instalar o **Spring Tool Suite (STS)** no seu macOS:
+
+## 1. Baixar o Spring Tool Suite
+
+1. Acesse o site oficial do Spring Tool Suite:
+   [Spring Tool Suite (STS) - Download](https://spring.io/tools)
+   
+2. Escolha a versão para macOS e clique no link de download.
+
+## 2. Instalar o Spring Tool Suite
+
+1. Após o download, localize o arquivo `.dmg` na pasta de downloads.
+
+2. Clique duas vezes no arquivo `.dmg` para abrir o instalador.
+
+3. Arraste o ícone do Spring Tool Suite para a pasta **Applications** para completar a instalação.
+
+## 3. Abrir o Spring Tool Suite
+
+1. Vá até a pasta **Applications** e clique no ícone do **Spring Tool Suite** para abrir o aplicativo.
+
+2. Caso você veja uma mensagem de segurança que o impede de abrir o aplicativo, siga estas etapas:
+   - Vá para **Preferências do Sistema** > **Segurança & Privacidade**.
+   - Na aba **Geral**, clique em **Abrir assim mesmo** ao lado da mensagem sobre o Spring Tool Suite.
+
+## 4. Configurar o Java Development Kit (JDK)
+
+Para usar o Spring Tool Suite, é necessário ter o JDK instalado no seu sistema. Para isso:
+
+1. Se ainda não tiver o JDK, baixe e instale a versão mais recente do [Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) ou use o [Homebrew](https://brew.sh/) para instalar o OpenJDK:
+   ```bash
+   brew install openjdk@11
+
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
