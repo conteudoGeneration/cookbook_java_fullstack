@@ -93,6 +93,50 @@
 
 23. Digite o seu usuário e senha do Github para autenticar. Na sequência será exibida a janela abaixo, informando que a autenticação foi realizada com sucesso!
 
+
+## Instalação no macOS
+
+### Método 1: Via Homebrew (Recomendado)
+1. Abra o Terminal.
+2. Execute o seguinte comando para instalar o Homebrew (caso não tenha):
+   ```sh
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+3. Instale o Git com:
+   ```sh
+   brew install git
+   ```
+4. Verifique se a instalação foi bem-sucedida com:
+   ```sh
+   git --version
+   ```
+
+### Método 2: Download Manual
+1. Acesse **[https://git-scm.com/download/mac](https://git-scm.com/download/mac)**.
+2. Faça o download do instalador mais recente.
+3. Abra o arquivo **.dmg** baixado e siga as instruções de instalação.
+4. Após a instalação, abra o Terminal e digite:
+   ```sh
+   git --version
+   ```
+   Se o Git estiver instalado corretamente, o número da versão será exibido.
+
+## Configuração Inicial do Git
+Após a instalação, configure seu nome e e-mail para que seus commits sejam identificados corretamente:
+
+```sh
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+```
+
+Verifique se as configurações foram aplicadas:
+
+```sh
+git config --list
+```
+
+Agora, o Git está pronto para uso! 
+
 <div align="center"><img src="https://i.imgur.com/wI9eQWo.png" title="source: imgur.com" /></div>
 
 <br /><br />
