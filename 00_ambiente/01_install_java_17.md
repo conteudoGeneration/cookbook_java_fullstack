@@ -98,4 +98,27 @@ java -version
 
 <br /><br />
 
+# Guia de Instalação do Java - macOS
+
+## Passo 01 - Download do Instalador
+
+1. Acesse o site oficial do JDK: [https://www.oracle.com/java/technologies/javase-jdk17-archive-downloads.html](https://www.oracle.com/java/technologies/javase-jdk17-archive-downloads.html).
+2. No menu de downloads, localize o instalador para macOS, chamado **macOS Installer**.
+3. Baixe o arquivo `.dmg` correspondente à versão desejada.
+
+## Passo 02 - Instalação do Java
+
+1. Clique no arquivo `.dmg` para montar o instalador.
+2. Após o arquivo ser montado, clique duas vezes no instalador para iniciar o processo de instalação.
+3. Siga as instruções do instalador. Em geral, basta clicar em **Continue** até finalizar o processo.
+
+## Passo 03 - Verificar a Instalação
+
+1. Após a instalação, abra o **Terminal** no seu macOS.
+2. Verifique se o Java foi instalado corretamente digitando o seguinte comando:
+
+```bash
+java -version
+```
+
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
