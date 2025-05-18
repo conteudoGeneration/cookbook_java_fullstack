@@ -113,7 +113,17 @@ Como a Interface JpaRepository possui apenas um Método de consulta específico 
 
 As Query Methods são declaradas dentro da **Interface Repositório** e implementadas nas **Classes Controladoras e de Serviços** (Service, que veremos mais a frente).
 
-Na prática, o que as Query Methods fazem são criar instruções SQL através de Palavras Chave, que combinadas com os Atributos da Classe Model, geram consultas personalizadas.
+Na prática, as Query Methods permitem gerar instruções de consulta em **JPQL** com base na combinação entre palavras-chave e nomes de atributos da entidade. O Spring Data interpreta o nome do método e cria dinamicamente a consulta correspondente.
+
+> **JPQL (Java Persistence Query Language)** é a **linguagem de consulta orientada a objetos** utilizada no JPA (**Java Persistence API**). Ela é similar ao SQL, mas opera sobre **entidades Java e seus atributos**, em vez de tabelas e colunas do banco de dados.
+>
+> Na prática, quando você escreve uma Query Method:
+>
+> 1. O **Spring Data JPA interpreta o nome do método**.
+> 2. Ele **gera dinamicamente uma consulta em JPQL** com base nesse nome.
+> 3. A consulta JPQL gerada é convertida pelo **provider JPA (Hibernate)** em uma consulta **SQL nativa**, que será executada no banco.
+>
+> Graças ao JPQL, o JPA consegue operar em qualquer Banco de dados Relacional, sem a necessidade de reescrever métodos ou consultas.
 
 **Exemplo 01 - Blog Pessoal (CRUD):**
 
@@ -137,7 +147,7 @@ SELECT * FROM tb_postagens WHERE titulo LIKE "%titulo%";
 | **Titulo**        | 🡪    | Atributo da Classe Postagem                                  |
 | **Containing**    | 🡪    | LIKE "%titulo%"                                              |
 | **IgnoreCase**    | 🡪    | Ignorando letras maiúsculas ou minúsculas                    |
-| **@Param("titulo")** | 🡪    | Define a variável String título como um parâmetro da consulta. A partir da versão 2.6.7 do Spring, o uso desta anotação se tornou obrigatório em consultas do tipo Like.|
+| **@Param("titulo")** | 🡪    | Define a variável String título como um parâmetro da consulta. O uso desta anotação é opcional em consultas do tipo Like.|
 | **String titulo** | 🡪    | Parâmetro do Método contendo o título que você deseja procurar. |
 
 Como esta consulta retornará um ou mais Objetos da Classe Postagem, o Método foi assinado com uma **Collection List** de Objetos da Classe Postagem.
