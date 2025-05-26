@@ -1,10 +1,12 @@
 <h1>Criando uma Organização no Github</h1>
 
+
+
 As organizações são contas compartilhadas onde empresas e projetos de  código aberto podem colaborar em muitos projetos de uma vez. Os  proprietários e administradores podem gerenciar o acesso de integrantes  aos dados e projetos da organização com recursos avançados  administrativos e de segurança.
 
 Com a Organização, o Administrador consegue criar vários repositórios em um único lugar e conceder acessos específicos para cada membro ou time. Como um integrante da organização, você pode visitar o painel da sua  organização durante todo o dia para se manter atualizado sobre as atividades recentes e acompanhar problemas e pull requests nos quais está trabalhando ou seguindo na organização.
 
-No projeto Integrador, a Organização será composta por 3 Repositórios:
+No projeto Integrador, a Organização será composta por diversos Repositórios, seguindo o padrão de nomes abaixo:
 
 <table border="1" width="100%">
 	<tr>
@@ -13,7 +15,7 @@ No projeto Integrador, a Organização será composta por 3 Repositórios:
 	</tr>
 	<tr>
 		<td><b>Documentação</b></td>
-		<td>Arquivos contendo a documentação da API: <br />
+		<td>Arquivos contendo a documentação das 3 API's: <br />
 		- Escopo do Projeto atualizado<br />
         - Documentação do Banco de Dados (DER, SQL e Dicionário de dados)<br />
 		- Documentação do Backend (Documentação das Classes e PDF do Swagger)<br />
@@ -30,13 +32,26 @@ No projeto Integrador, a Organização será composta por 3 Repositórios:
 	</tr>
 </table>
 
-<h2>Passo 01 - Preparação do ambiente</h2>
 
-1. Crie uma conta de e-mail gratuita com o nome do projeto (Gmail).
+Cada projeto Spring e React deverão ter o seu próprio repositório. A  Documentação de todos os projetos serão mantidas no repositório  documentação.
 
-2. Crie uma conta gratuita no Github utilizando o e-mail criado com o nome do projeto.
+<br />
 
-<h2>Passo 02 - Criando a Organização e adicionando os Membros</h2>
+<h2>👣 Passo 01 - Preparação do ambiente</h2>
+
+
+
+1. Crie uma conta de e-mail gratuita com o nome do grupo (exemplo: **grupo_NN-turma-java_NN**).
+
+2. Crie uma conta gratuita no Github utilizando o e-mail criado com o nome do grupo.
+
+*NN é o número do grupo e da turma*
+
+<br />
+
+<h2>👣 Passo 02 - Criando a Organização e adicionando os Membros</h2>
+
+
 
 Neste passo, vamos criar uma organização dentro da conta do Github que o Grupo criou.
 
@@ -52,15 +67,19 @@ Neste passo, vamos criar uma organização dentro da conta do Github que o Grupo
 
 <div align="center"><img src="https://i.imgur.com/OFViqzW.png" title="source: imgur.com" /></div>
 
-| Item                             | Dados                 |
-| -------------------------------- | --------------------- |
-| **Organization account name**    | Nome do seu projeto   |
-| **Contact e-mail**               | E-mail do seu projeto |
-| **This organization belongs to** | My personal account   |
+<br />
 
-4. Ao final, faça a verificação de segurança da sua conta clicando no botão **Verificar** e ao finalizar clique no botão **Next**.
+| Item                             | Dados               |
+| -------------------------------- | ------------------- |
+| **Organization account name**    | Nome do grupo       |
+| **Contact e-mail**               | E-mail do seu grupo |
+| **This organization belongs to** | My personal account |
 
-<div align="center"><img src="https://i.imgur.com/79qmXci.png" title="source: imgur.com" width="80%"/></div>
+<br />
+
+4. Ao final, faça a verificação de segurança da sua conta clicando no botão **Verificar**, marque a opção de concordância com os **Termos de Uso do Serviço** (marcado em vermelho) e clique no botão **Next**.
+
+<div align="center"><img src="https://i.imgur.com/DAACOex.png" title="source: imgur.com" /></div>
 
 5. Na próxima tela, adicione todos os membros do seu grupo na Organização, através da conta do Github de cada integrante. Ao final clique no botão **Complete setup**.
 
@@ -80,26 +99,35 @@ Neste passo, vamos criar uma organização dentro da conta do Github que o Grupo
 
 9. Após clicar no botão **Join**, o Github solicitará a senha do Github pessoal para confirmar a aceitação do convite.
 
-<h2>Passo 03 - Criando Repositórios na Organização</h2>
+<br />
+
+<h2>👣 Passo 03 - Criando Repositórios na Organização</h2>
+
+
 
 Neste passo vamos criar os nossos Repositórios Remotos.
 
-1. Na tela inicial da Organização, clique no botão **Create a new repository**.
+1. Na tela inicial da Organização, clique no link **Repositories**.
 
-<div align="center"><img src="https://i.imgur.com/aKLoCPx.png?1" title="source: imgur.com" width="80%"/></div>
+<div align="center"><img src="https://i.imgur.com/k9jeNrB.png" title="source: imgur.com" /></div>
 
-2. Na próxima tela, crie um **Repositório Público**, chamado **backend** e adicione o arquivo **Readme.MD**. Em seguida clique no botão **Create Repository**.
-<div align="center"><img src="https://i.imgur.com/G3WbsEb.png" title="source: imgur.com" width="75%"/></div>
+2. Na sequência, clique no botão **New repository**.
 
-3. Repositório Criado
+<div align="center"><img src="https://i.imgur.com/lD82tjh.png" title="source: imgur.com" /></div>
 
-<div align="center"><img src="https://i.imgur.com/gWiw2SA.png" title="source: imgur.com" /></div>
+3. Na próxima tela, crie um **Repositório Público**, chamado **nome_do_projeto-backend** e em seguida clique no botão **Create Repository**.
 
-4. Crie os demais Repositórios clicando no botão **New**.
+<div align="center"><img src="https://i.imgur.com/MN8zQDA.png" title="source: imgur.com" /></div>
 
-<div align="center"><img src="https://i.imgur.com/FB2N0kL.png" title="source: imgur.com" /></div>
+4. Repositório Criado
 
-<h2>Passo 04 - Criando um Time de Desenvolvimento</h2>
+5. Para criar os demais Repositórios no futuro, siga os mesmos passos.
+
+<br />
+
+<h2>👣 Passo 04 - Criando um Time de Desenvolvimento</h2>
+
+
 
 Time de Desenvolvimento ou Teams,  são grupos de membros da organização que refletem a estrutura de sua empresa ou grupo de um Projeto, com permissões e menções de acesso em cascata aos repositórios da Organização.
 
@@ -129,7 +157,11 @@ Neste passo vamos criar um time de desenvolvimento.
 
 6. Como os integrantes do grupo já fazem parte da Organização, todos receberão uma mensagem via e-mail informando que foram adicionados no time.
 
-<h2>Passo 05 - Adicionando o Time no Repositório</h2>
+<br />
+
+<h2>👣 Passo 05 - Adicionando o Time no Repositório</h2>
+
+
 
 Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 
@@ -143,7 +175,7 @@ Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 
 3. Ainda nesta tela, clique no botão **Add teams**.
 
-<div align="center"><img src="https://i.imgur.com/JEPc6NG.png?1" title="source: imgur.com" /></div>
+<div align="center"><img src="https://i.imgur.com/gVxbRlI.png" title="source: imgur.com" /></div>
 
 4. Na próxima tela, selecione o **Time** (indicado em azul na imagem abaixo) na opção **Choose role**, vamos deixar com **Administrador** (indicado em vermelho na imagem abaixo). Desta forma, todos os Integrantes do Grupo terão acesso total ao Repositório.
 
@@ -155,7 +187,11 @@ Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 | <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="150px"/> | <div align="left"> **ATENÇÃO:** Como todos os Integrantes do Grupo terão acesso de Administrador do Repositório, tenham cuidado para manter o repositório organizado e sem erros.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
-<h2>Passo 06 - Personalizando a Organização</h2>
+<br />
+
+<h2>👣 Passo 06 - Personalizando a Organização</h2>
+
+
 
 1. Clique sobre logo da Organização
 
@@ -169,13 +205,17 @@ Neste passo, vamos adicionar o time nos Repositórios do Projeto.
 
 <div align="center"><img src="https://i.imgur.com/9Zq1yHc.png" title="source: imgur.com" width="75%"/></div>
 
-| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** O item **URL**, **deverá ser preenchido apenas no final do Bloco 03**, quando o Frontend estiver concluído e na nuvem.</div> |
+<br />
+
+| <img src="https://i.imgur.com/hOgWvSc.png" title="source: imgur.com" width="100px"/> | <div align="left"> **ATENÇÃO:** O item Logo e **URL**, **deverá ser preenchido apenas no final do Bloco 03**, quando o front-end que será apresentado no Evento de Empregabilidade estiver concluído e na nuvem.</div> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+
+<br />
 
 4. Clique no botão **Update Profile** para concluir. O resultado você confere na imagem abaixo:
 
 <div align="center"><img src="https://i.imgur.com/AvUlZ51.png" title="source: imgur.com" /></div>
 
 <br /><br />
-	
+
 <div align="left"><a href="https://github.com/conteudoGeneration/cookbook_java_fullstack/blob/main/04_spring/README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
