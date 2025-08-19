@@ -5,7 +5,7 @@
 
 <br />
 
-<h2><img src="https://i.imgur.com/r9lrbPG.png" title="source: imgur.com" width="35px"/> JavaScript</h2>
+<h2><img src="https://i.imgur.com/r9lrbPG.png" title="source: imgur.com" width="35px"/>Introdução a JavaScript</h2>
 
 
 
@@ -15,8 +15,15 @@
 4. <a href="04.md">JavaScript: O Básico para o Frontend</a>
 5. <a href="05.md">Manipulação da DOM</a>
 6. <a href="06.md">Tratamento de Eventos</a>
-7. <a href="08.md">Projeto 01 - Portfólio - Envio e Validação de Dados do Formulário</a>
-10. <a href="09.md">Projeto 01 - Portfólio - Deploy no GitHub Pages</a>
+
+<br />
+
+<h2><img src="https://i.imgur.com/r9lrbPG.png" title="source: imgur.com" width="35px"/>Projeto Portfólio</h2>
+
+
+
+1. <a href="pr01.md">Projeto 01 - Portfólio - Envio e Validação de Dados do Formulário</a>
+2. <a href="pr02.md">Projeto 01 - Portfólio - Deploy no GitHub Pages</a>
 
 <br /><br />
 
