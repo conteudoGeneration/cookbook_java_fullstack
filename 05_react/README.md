@@ -28,7 +28,7 @@
 15. <a href="15.md">Projeto Blog Pessoal - Service</a>
 16. <a href="16.md">Projeto Blog Pessoal - Página de Cadastro do Usuário - Lógica</a>
 17. <a href="17.md">Introdução à Context API</a>
-18. <a href="18.md">Projeto Blog Pessoal - Componente AuthContext</a>
+18. <a href="18.md">Projeto Blog Pessoal - Contexto AuthContext</a>
 19. <a href="19.md">Projeto Blog Pessoal - Página de Login - Lógica</a>
 20. <a href="20.md">Projeto Blog Pessoal - Componentes CardTemas e Lista Temas - Estilização</a>
 21. <a href="21.md">Projeto Blog Pessoal - Componentes CardTemas e ListaTemas - Lógica</a>
