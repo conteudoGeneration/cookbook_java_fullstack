@@ -63,12 +63,12 @@
 
 <h3>1.2 Annotations - hibernate.validation</h3>
 
-| Anotação                                            | Descrição                            |
-| --------------------------------------------------- | ------------------------------------ |
-| <code>@CPF</code>                                                | Valida CPF                           |
-| <code>@CNPJ</code>                                               | Valida CNPJ                          |
-| <code>@ISBN</code>                                               | Valida o ISBN de um Livro            |
-| <code>@TituloEleitoral</code>                                    | Valida o Título de Eleitor           |
+| Anotação                                                     | Descrição                            |
+| ------------------------------------------------------------ | ------------------------------------ |
+| <code>@CPF</code>                                            | Valida CPF                           |
+| <code>@CNPJ</code>                                           | Valida CNPJ                          |
+| <code>@ISBN</code>                                           | Valida o ISBN de um Livro            |
+| <code>@TituloEleitoral</code>                                | Valida o Título de Eleitor           |
 | <code>@CreditCardNumber(ignoreNonDigitCharacters = false)</code> | Valida o numero do Cartão de Crédito |
 
 <h2>2. Spring Data JPA</h2>
@@ -130,7 +130,7 @@ Na prática, as Query Methods permitem gerar instruções de consulta em **JPQL*
 **Query Method**
 
 ```java
-public List <Postagem> findAllByTituloContainingIgnoreCase(@Param("titulo") String titulo);
+public List <Postagem> findAllByTituloContainingIgnoreCase(String titulo);
 ```
 
 **Instrução SQL equivalente**
@@ -147,7 +147,6 @@ SELECT * FROM tb_postagens WHERE titulo LIKE "%titulo%";
 | **Titulo**        | 🡪    | Atributo da Classe Postagem                                  |
 | **Containing**    | 🡪    | LIKE "%titulo%"                                              |
 | **IgnoreCase**    | 🡪    | Ignorando letras maiúsculas ou minúsculas                    |
-| **@Param("titulo")** | 🡪    | Define a variável String título como um parâmetro da consulta. O uso desta anotação é opcional em consultas do tipo Like.|
 | **String titulo** | 🡪    | Parâmetro do Método contendo o título que você deseja procurar. |
 
 Como esta consulta retornará um ou mais Objetos da Classe Postagem, o Método foi assinado com uma **Collection List** de Objetos da Classe Postagem.
@@ -169,11 +168,11 @@ public Optional <Usuario> findByUsuario(String usuario);
 SELECT * FROM tb_usuarios WHERE usuario = "usuario";
 ```
 
-| Palavra Chave     |      | Instrução SQL                                                |
-| ----------------- | ---- | ------------------------------------------------------------ |
-| **find**          | 🡪    | SELECT                                                       |
-| **By**            | 🡪    | WHERE                                                        |
-| **Usuario**        | 🡪    | Atributo da Classe Usuario                                  |
+| Palavra Chave      |      | Instrução SQL                                                |
+| ------------------ | ---- | ------------------------------------------------------------ |
+| **find**           | 🡪    | SELECT                                                       |
+| **By**             | 🡪    | WHERE                                                        |
+| **Usuario**        | 🡪    | Atributo da Classe Usuario                                   |
 | **String usuario** | 🡪    | Parâmetro do Método contendo o usuário (e-mail) que você deseja procurar. |
 
 Como esta consulta retornará apenas um Objeto da Classe Usuario ou um Objeto Nulo, caso a consulta não encontre nada, o Método foi assinado com apenas um Objeto da Classe Usuario do tipo **Optional** para evitar o erro **NullPointerException** (Objeto Nulo). 
@@ -192,63 +191,64 @@ Para exemplificar outros tipos de consultas personalizadas, vamos utilizar como 
 <h3>Operadores Relacionais</h3>
 
 
-| Palavra        | Descrição                                                    | Exemplo                                          |
-| -------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
-| **LessThan**         | Seleciona valores menores do que o critério da consulta.     | **findByPrecoLessThan(BigDecimal preco)** <br /> *SELECT * FROM tb_produtos WHERE preco < preco;*        |
-| **LessThanEqual**    | Seleciona valores menores ou iguais ao  critério da consulta. | **findByPrecoLessThanEqual(BigDecimal preco)** <br /> *SELECT * FROM tb_produtos WHERE preco <= preco;*    |
-| **GreaterThan**      | Seleciona valores maiores do que o critério da consulta.     | **findByPrecoGreaterThan(BigDecimal preco)** <br /> *SELECT * FROM tb_produtos WHERE preco > preco;*      |
+| Palavra              | Descrição                                                    | Exemplo                                                      |
+| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **LessThan**         | Seleciona valores menores do que o critério da consulta.     | **findByPrecoLessThan(BigDecimal preco)** <br /> *SELECT * FROM tb_produtos WHERE preco < preco;* |
+| **LessThanEqual**    | Seleciona valores menores ou iguais ao  critério da consulta. | **findByPrecoLessThanEqual(BigDecimal preco)** <br /> *SELECT * FROM tb_produtos WHERE preco <= preco;* |
+| **GreaterThan**      | Seleciona valores maiores do que o critério da consulta.     | **findByPrecoGreaterThan(BigDecimal preco)** <br /> *SELECT * FROM tb_produtos WHERE preco > preco;* |
 | **GreaterThanEqual** | Seleciona valores maiores ou iguais ao  critério da consulta. | **findByPrecoGreaterThanEqual(BigDecimal preco)** <br /> *SELECT * FROM tb_produtos WHERE preco >= preco;* |
 
 <h3>Operadores Lógicos</h3>
 
 
-| Palavra | Descrição                                                    | Exemplo                                                 |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
-| **And**       | Exibe um registro se todas as condições separadas por AND, que forem TRUE | **findByNomeAndFornecedor(String nome, String fornecedor)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome AND fornecedor = fornecedor;*  |
-| **Or**        | Exibe um registro se alguma das condições separadas por OR, que seja TRUE | **findByNomeOrFornecedor(String nome,String fornecedor)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome OR fornecedor = fornecedor;*  |
-| **Not**       | Seleciona todos os dados diferentes de um critério definido. Exemplo: Nome diferente de João | **findByFornecedorNot(String fornecedor)**<br /> *SELECT * FROM tb_produtos WHERE NOT fornecedor = fornecedor;*                           |
+| Palavra | Descrição                                                    | Exemplo                                                      |
+| ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **And** | Exibe um registro se todas as condições separadas por AND, que forem TRUE | **findByNomeAndFornecedor(String nome, String fornecedor)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome AND fornecedor = fornecedor;* |
+| **Or**  | Exibe um registro se alguma das condições separadas por OR, que seja TRUE | **findByNomeOrFornecedor(String nome,String fornecedor)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome OR fornecedor = fornecedor;* |
+| **Not** | Seleciona todos os dados diferentes de um critério definido. Exemplo: Nome diferente de João | **findByFornecedorNot(String fornecedor)**<br /> *SELECT * FROM tb_produtos WHERE NOT fornecedor = fornecedor;* |
 
 <h3>Ordenação</h3>
 
-| Palavra | Descrição                                                    | Exemplo                                                      |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **OrderBy**   | Ordena os dados segundo um critério definido. A Clausula **Desc** indica ordenação em ordem decrescente. | **findByNomeOrderByDataValidade(String nome)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome ORDER BY data_validade;* <br /><br />**findByNomeOrderByDataValidadeDesc(String nome)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome ORDER BY data_validade DESC;* |
+| Palavra     | Descrição                                                    | Exemplo                                                      |
+| ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **OrderBy** | Ordena os dados segundo um critério definido. A Clausula **Desc** indica ordenação em ordem decrescente. | **findByNomeOrderByDataValidade(String nome)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome ORDER BY data_validade;* <br /><br />**findByNomeOrderByDataValidadeDesc(String nome)**<br /> *SELECT * FROM tb_produtos WHERE nome = nome ORDER BY data_validade DESC;* |
 
 <h3>Intervalo e Lista de dados</h3>
 
-| Palavra | Descrição                                                    | Exemplo                                                      |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Between**   | Seleciona os valores dentro de um determinado intervalo. Os valores podem ser números, texto ou datas. | **findByPrecoBetween(BigDecimal inicio, BigDecimal fim)**<br />*SELECT * FROM tb_produtos WHERE preco BETWEEN inicio AND fim;<br /><br />**findByDataValidadeBetween(LocalDate inicio, LocalDate fim)**<br /> *SELECT * FROM tb_produtos WHERE data_validade BETWEEN inicio AND fim;* |
-| **In**        | Permite que você especifique uma lista com vários critérios que a consulta deverá procurar. Ao implementar o Método na Classe Controladora, será necessário converter os parâmetros em uma Collection.| **findByPrecoIn(List<BigDecimal> preco)**<br />*SELECT * FROM tb_produtos WHERE preco IN (List01, List02, List03);*                     |
+| Palavra     | Descrição                                                    | Exemplo                                                      |
+| ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Between** | Seleciona os valores dentro de um determinado intervalo. Os valores podem ser números, texto ou datas. | **findByPrecoBetween(BigDecimal inicio, BigDecimal fim)**<br />*SELECT * FROM tb_produtos WHERE preco BETWEEN inicio AND fim;<br /><br />**findByDataValidadeBetween(LocalDate inicio, LocalDate fim)**<br /> *SELECT * FROM tb_produtos WHERE data_validade BETWEEN inicio AND fim;* |
+| **In**      | Permite que você especifique uma lista com vários critérios que a consulta deverá procurar. Ao implementar o Método na Classe Controladora, será necessário converter os parâmetros em uma Collection. | **findByPrecoIn(List<BigDecimal> preco)**<br />*SELECT * FROM tb_produtos WHERE preco IN (List01, List02, List03);* |
 
 <h3>Busca textual específica</h3>
 
-Nas consultas do tipo textual, utilizaremos a anotação **@Param**. Os parâmetros de consulta permitem a definição de consultas reutilizáveis. Essas consultas podem ser executadas com diferentes valores de parâmetro para recuperar resultados diferentes, eliminando a necessidade de usar uma nova String para cada execução da consulta.
+
 
 | Palavra-chave    | Descrição                                                    | Exemplo                                                      |
 | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Like**         | Busca todos os Objetos, onde um Atributo específico (String), possua exatamente o mesmo texto do critério de busca. | **findAllByNomeLike(@Param("nome") String nome)** <br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome";* |
+| **Like**         | Busca todos os Objetos, onde um Atributo específico (String), possua exatamente o mesmo texto do critério de busca. | **findAllByNomeLike(String nome)** <br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome";* |
 | **Containing**   | Busca todos os Objetos, onde um Atributo específico (String), contenha o texto do critério de busca, independente da posição (inicio, meio ou fim) | **findAllByNomeContaining(String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "%nome%";* |
-| **StartingWith** | Busca todos os Objetos, onde um Atributo específico (String), inicie com o texto do critério de busca | **findAllByNomeStartingWith(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome%";* |
-| **EndingWith**   | Busca todos os Objetos, onde um Atributo específico (String), termine com o texto do critério de busca | **findAllByNomeEndingWith(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "%nome";* |
-| **IgnoreCase**   | Ignora se as letras são Maiúsculas ou Minúsculas. O MySQL, por padrão, já é Case Sensitive. Esta palavra chave pode ser usada em qualquer busca textual. | **findAllByNomeContainingIgnoreCase(@Param("nome") String nome)**<br />*SELECT * FROM tb_produtos WHERE UPPER(nome) LIKE UPPER("nome");* |
+| **StartingWith** | Busca todos os Objetos, onde um Atributo específico (String), inicie com o texto do critério de busca | **findAllByNomeStartingWith(String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "nome%";* |
+| **EndingWith**   | Busca todos os Objetos, onde um Atributo específico (String), termine com o texto do critério de busca | **findAllByNomeEndingWith(String nome)**<br />*SELECT * FROM tb_produtos WHERE nome LIKE "%nome";* |
+| **IgnoreCase**   | Ignora se as letras são Maiúsculas ou Minúsculas. O MySQL, por padrão, já é Case Sensitive. Esta palavra chave pode ser usada em qualquer busca textual. | **findAllByNomeContainingIgnoreCase(String nome)**<br />*SELECT * FROM tb_produtos WHERE UPPER(nome) LIKE UPPER("nome");* |
 
 <h3>Busca por Data</h3>
 
 Ao implementar os Métodos de Consulta por Data na Classe Controladora, será necessário converter os parâmetros String (Variáveis de Caminho), contendo as datas em Objetos da Classe **LocalDate** ou **LocalDateTime** antes de passar como parâmetros para o Método de Consulta.
 
-| Palavra | Descrição                                                    | Exemplo                                     |
-| ------------- | ------------------------------------------------------------ | ------------------------------------------- |
-| **Before**    | Seleciona todos os Objetos cuja as datas sejam anteriores (Passado) a data informada no critério. | **findByDataValidadeBefore(LocalDate data)**<br />*SELECT * FROM tb_produtos WHERE data_validade < data;* |
-| **After**     | Seleciona todos os Objetos cuja as datas sejam posteriores (Futuro) a data informada no critério. | **findByDataValidadeAfter(LocalDate data)**<br />*SELECT * FROM tb_produtos WHERE data_validade > data;*  |
+| Palavra    | Descrição                                                    | Exemplo                                                      |
+| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Before** | Seleciona todos os Objetos cuja as datas sejam anteriores (Passado) a data informada no critério. | **findByDataValidadeBefore(LocalDate data)**<br />*SELECT * FROM tb_produtos WHERE data_validade < data;* |
+| **After**  | Seleciona todos os Objetos cuja as datas sejam posteriores (Futuro) a data informada no critério. | **findByDataValidadeAfter(LocalDate data)**<br />*SELECT * FROM tb_produtos WHERE data_validade > data;* |
 
 <h3>Busca por Verdadeiro ou Falso</h3>
 
-| Palavra | Descrição                                   | Exemplo                    |
-| ------------- | ------------------------------------------- | -------------------------- |
-| **True**      | Verifica se um Atributo Boolean é verdadeiro. | **findByDisponivelTrue()**<br />*SELECT * FROM tb_produtos WHERE disponivel = true;*  |
-| **False**     | Verifica se um Atributo Boolean é falso.      | **findByDisponivelFalse()**<br />*SELECT * FROM tb_produtos WHERE disponivel = false;* |
+| Palavra   | Descrição                                     | Exemplo                                                      |
+| --------- | --------------------------------------------- | ------------------------------------------------------------ |
+| **True**  | Verifica se um Atributo Boolean é verdadeiro. | **findByDisponivelTrue()**<br />*SELECT * FROM tb_produtos WHERE disponivel = true;* |
+| **False** | Verifica se um Atributo Boolean é falso.      | **findByDisponivelFalse()**<br />*SELECT * FROM tb_produtos WHERE disponivel = false;* |
 
 <br /><br />
 	
+
 <div align="left"><a href="README.md"><img src="https://i.imgur.com/XMgF3gl.png" title="source: imgur.com" width="3%"/>Voltar</a></div>
