@@ -17,10 +17,10 @@
 4. <a href="04.md">Projeto Blog Pessoal - Componente Home</a>
 5. <a href="05.md">Introdução a Props, Hooks e Renderização Condicional</a>
 6. <a href="06.md">Introdução ao Tailwind</a>
-7. <a href="07.md">Instalação e Configuração do Tailwind</a>
+7. <a href="07.md">Projeto Blog Pessoal - Instalação e Configuração do Tailwind</a>
 8. <a href="08.md">Projeto Blog Pessoal - Componentes Navbar e Footer</a>
 9. <a href="09.md">Introdução ao React Router Dom</a>
-10. <a href="10.md">Projeto Blog Pessoal - Rotas com o React Router Dom</a>
+10. <a href="10.md">Projeto Blog Pessoal - Configuração das Rotas com o React Router Dom</a>
 11. <a href="11.md">Projeto Blog Pessoal - Página de Cadastro do Usuário - Estilização</a>
 12. <a href="12.md">Projeto Blog Pessoal - Página de Login - Estilização</a>
 13. <a href="13.md">Introdução ao Axios</a>
@@ -28,7 +28,7 @@
 15. <a href="15.md">Projeto Blog Pessoal - Service</a>
 16. <a href="16.md">Projeto Blog Pessoal - Página de Cadastro do Usuário - Lógica</a>
 17. <a href="17.md">Introdução à Context API</a>
-18. <a href="18.md">Projeto Blog Pessoal - Contexto AuthContext</a>
+18. <a href="18.md">Projeto Blog Pessoal - Configuração do Contexto AuthContext</a>
 19. <a href="19.md">Projeto Blog Pessoal - Página de Login - Lógica</a>
 20. <a href="20.md">Projeto Blog Pessoal - Componentes CardTema e Lista Temas - Estilização</a>
 21. <a href="21.md">Projeto Blog Pessoal - Componentes CardTema e ListaTemas - Lógica</a>
