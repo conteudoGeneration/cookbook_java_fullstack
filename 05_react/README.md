@@ -53,7 +53,7 @@
 
 <br />
 
-1. <a href="36.md">Projeto Integrador - Deploy no Netlify</a>
+1. <a href="36.md">Projeto Integrador - Deploy na Vercel</a>
 
 <br /><br />
     
