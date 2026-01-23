@@ -1,7 +1,11 @@
 <div align="center">
-    <img src="https://i.imgur.com/Dxz805G.png" title="source: imgur.com" width="70%"/> 
+    <img src="https://i.imgur.com/ydBzEAs.png" title="source: imgur.com" width="70%"/> 
 </div>
-<h1><img src="https://i.imgur.com/ojhc9Jc.png" title="source: imgur.com" width="5%"/>Bootcamp - Full Stack - Fundamentos WEB</h1>
+<br />
+
+<h1><img src="https://i.imgur.com/ojhc9Jc.png" title="source: imgur.com" width="5%"/>Bootcamp - 
+Full Stack - Fundamentos WEB</h1>
+<br />
 
 <h2>Conteúdos</h2>
 
@@ -15,7 +19,7 @@
         <td><a href="01_html/README.md">Fundamentos da Linguagem HTML</a></td>
     </tr>
     <tr>
-        <td><img src="https://i.imgur.com/7IdCTXz.png" title="source: imgur.com" /></td>
+        <td><img src="https://i.imgur.com/63FhSvn.png" title="source: imgur.com" /></td>
         <td><a href="02_css/README.md">Fundamentos da Linguagem CSS</a></td>
     </tr>
     <tr>
@@ -27,7 +31,6 @@
         <td><a href="04_ts/README.md">Fundamentos da Linguagem TypeScript</a></td>
     </tr>
 </table>
-
 <br /><br />
 
 <div align="center"><a href="../README.md"><img src="https://i.imgur.com/kfHCxif.png" title="source: imgur.com" width="5%"/></a></div>

@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://i.imgur.com/Dxz805G.png" title="source: imgur.com" width="70%"/> 
+    <img src="https://i.imgur.com/ydBzEAs.png" title="source: imgur.com" width="70%"/> 
 </div>
 <h1>Bootcamp - Full Stack - Fundamentos WEB</h1>
 
@@ -10,7 +10,9 @@
 
 
 1. <a href="01.md">Introdução ao TypeScript</a>
-2. <a href="02.md">TypeScript: O Básico para o Frontend</a>
+2. <a href="02.md">Primeiro Projeto TypeScript</a>
+3. <a href="03.md">TypeScript: O Básico para o Frontend - Parte 01</a>
+4. <a href="04.md">TypeScript: O Básico para o Frontend - Parte 02</a>
 
 <br /><br />
 

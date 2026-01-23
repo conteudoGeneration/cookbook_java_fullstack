@@ -30,11 +30,7 @@ Esta opção permitirá que você instale extensões de outros Navegadores no Mi
 
 6. Abra o link abaixo da Extensão **Pesticide for Chrome** no **Microsoft Edge**:
 
-<br />
-
-<div align="left"><img src="https://i.imgur.com/8WmU71z.png" title="source: imgur.com" width="4%"/><a href="https://chromewebstore.google.com/detail/pesticide-for-chrome/mahhmjhkidipojpgcboknihcljndifaa?hl=pt-BR" target="_blank"><b>Pesticide - Chrome</b></a></div>
-
-<br />
+<div align="left"><img src="https://i.imgur.com/8WmU71z.png" title="source: imgur.com" width="4%"/><a href="https://chromewebstore.google.com/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi?hl=pt-BR" target="_blank"><b>Pesticide - Chrome</b></a></div>
 
 7. Instale a extensão no Microsoft Edge, clicando no botão **Obter**, indicado na imagem abaixo:
 

@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://i.imgur.com/Dxz805G.png" title="source: imgur.com" width="70%"/> 
+    <img src="https://i.imgur.com/ydBzEAs.png" title="source: imgur.com" width="70%"/> 
 </div>
 <h1>Bootcamp - Full Stack - Fundamentos WEB</h1>
 
@@ -10,7 +10,7 @@
 
 
 1. <a href="01.md">Introdução ao Desenvolvimento WEB - Frontend</a>
-2. <a href="02.md">Projeto 01 - Portfólio - Iniciando o Projeto</a>
+2. <a href="02.md">Preparando o Ambiente de Desenvolvimento</a>
 
 <br /><br />
 
