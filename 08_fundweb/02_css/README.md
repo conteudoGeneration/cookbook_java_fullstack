@@ -20,16 +20,17 @@
 8. <a href="08.md">Estilização - Texto</a> 
 9. <a href="09.md">Estilização de Listas</a>
 10. <a href="10.md">Box Model</a>
-11. <a href="11.md">Layout</a>
-12. <a href="12.md">Flexbox</a>
-13. <a href="13.md">Grid Layout</a> 
-14. <a href="14.md">Pseudoclasses e Pseudoelementos</a> 
-15. <a href="15.md">Sombras, Filtros e Opacidade</a> 
-16. <a href="16.md">Introdução a Animações</a>
-17. <a href="17.md">Transições (Transitions)</a>
-18. <a href="18.md">Animações (Animations)</a>
-19. <a href="19.md">Transformações (Transforms)</a>
-20. <a href="20.md">Introdução à Responsividade</a> 
+11. <a href="11.md">Estilização de Imagens</a>
+12. <a href="12.md">Layout</a>
+13. <a href="13.md">Flexbox</a>
+14. <a href="14.md">Grid Layout</a> 
+15. <a href="15.md">Pseudoclasses e Pseudoelementos</a> 
+16. <a href="16.md">Sombras, Filtros e Opacidade</a> 
+17. <a href="17.md">Introdução a Animações</a>
+18. <a href="18.md">Transições (Transitions)</a>
+19. <a href="19.md">Animações (Animations)</a>
+20. <a href="20.md">Transformações (Transforms)</a>
+21. <a href="21.md">Introdução à Responsividade</a> 
 
 <br />
 
